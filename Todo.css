@@ -1,0 +1,119 @@
+.heading{
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  text-shadow:
+  0 0 5px #6d91da, 
+  0 0 10px #007bff,
+  0 0 15px #9dbdc8;
+}
+
+#taskInput{
+  width: 300%;
+  height: 21px;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 6px;
+  max-width: 300px;
+}
+#addBtn{
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 100px;
+  font-size: larger;
+}
+#deleteallBtn{
+  display: block;
+  margin: 10px auto 0;
+  padding: 11px 16px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 461px;
+}
+.done-btn {
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.done-btn:hover{
+  background-color: wheat;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgb(193, 78, 78);
+  margin-left: 15px;
+}
+.task-item {
+  font-size: 20px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+body {
+  background: #f0f4f8;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-image: url(./anime-night-sky-illustration.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+ #task-list {
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  overflow: auto;
+  transform: translateX(-9%)
+  
+}
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#taskInput,
+#taskDate,
+#addBtn {
+  padding: 10px 12px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#taskDate {
+  max-width: 140px;
+  margin-left: 10px;
+}
+
+body {
+  background-image: url(./anime-night-sky-illustration.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #f0f4f8; 
+  color: black;
+}
